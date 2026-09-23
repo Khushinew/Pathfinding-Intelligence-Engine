@@ -4,7 +4,7 @@ This is a small Python project I made while learning Dijkstra's shortest path al
 
 The program uses Dijkstra's algorithm to find the shortest path from a starting point to an ending point in a simple grid-based maze. I also added a terminal visualization so I could actually see how the algorithm explores the maze instead of just getting the final answer.
 
-## How the maze works
+# How the maze works
 
 The maze is stored as a 2D list.
 
@@ -20,7 +20,7 @@ start_point = (0, 0)
 end_point = (4, 4)
 
 
-## How Dijkstra works in this project
+# How Dijkstra works in this project
 
 The algorithm starts from the starting cell with a distance of "0".
 
@@ -38,7 +38,7 @@ I use Python's "heapq" module to implement the priority queue.
 
 The program also keeps track of where each cell came from using "came_from". This is used at the end to reconstruct the actual path instead of only knowing the shortest distance.
 
-## Visualization
+# Visualization
 
 The program shows the search happening in the terminal.
 
